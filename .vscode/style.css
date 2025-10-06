@@ -89,6 +89,7 @@ header .icons a{
 
 header .icons a:hover{
     color: red;
+    timeline-scope: 5sec;
 }
 
 header #toggler{
