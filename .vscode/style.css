@@ -32,5 +32,107 @@ header{
 }
 
 header .logo{
-    font-size: ;
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: var(--grey);
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: black;
+}
+
+header .navbar a:hover{
+    color: var(--grey);
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color: black;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color: red;
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: black;
+    border-radius: .5rem;
+    padding:0.5rem .5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    html{
+    font-size: 55%;
+    }
+    header{
+    padding:2rem;
+    }
+}
+
+@media(max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%; left:0; right:0;
+        background: #4e4c4c;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #7f7d7d;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+}
+
+@media(max-width:450px){
+    html{
+    font-size: 50%;
+    }
 }
