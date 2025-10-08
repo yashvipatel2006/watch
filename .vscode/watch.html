@@ -24,11 +24,11 @@
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="search products..." onkeyup="searchProducts()">
         </div>
-        <div> Cart: <span id="cart">0</span></div>
+        <!-- <div> Cart: <span id="cart">0</span></div> -->
 
         <div class="icons">
             <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-shopping-cart" ><span id="cart">0</span></a>
             <a href="#" class="fas fa-user"></a>
         </div>
     </header>
@@ -367,7 +367,7 @@
 <script>
 let cart=0;
 function addToCart(item){
-  cart++;
+ cart++;
   document.getElementById("cart").innerText=cart;
   const msg=document.createElement("div");
   msg.innerText=item+" added to cart!";
