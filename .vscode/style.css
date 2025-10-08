@@ -105,6 +105,19 @@ header .fa-bars{
     display: none;
 }
 
+header .search-bar{
+    font-size: .7rem;
+    background-color: #070707;
+    border-radius: .5rem;
+    padding: .5rem;
+    border: black;
+    border-width: 2rem;
+}
+
+header .search-bar #searchInput{
+    background-color: #999999;
+   border-width: 2rem;
+}
 .home{
     display: flex;
     align-items: center;
@@ -250,8 +263,8 @@ header .fa-bars{
     top: 1rem; left: 1rem;
     padding: .7rem 1rem;
     font-size: 2rem;
-    color: var(--grey);
-    background: rgba(255, 51, 153, .05);
+    color: black;
+    background: white;
     z-index: 1;
     border-radius: .5rem;
 
